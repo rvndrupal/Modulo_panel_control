@@ -4,6 +4,8 @@
 namespace Drupal\panel\Controller;
 
 use Drupal\user\Entity\User;
+use Drupal\file\Entity\File;
+
 
 use Drupal\Core\Controller\ControllerBase;
 
@@ -16,15 +18,6 @@ class PanelController extends ControllerBase {
   /**
    * Returns a render-able array for a test page.
    */
-  
-  /*	$user = User::load(Drupal::currentUser()->id());
-	//$nom = $user->get('name')->value; 
-	//$imgUsuario = $user->get('user_picture')->target_id; 
-
-	dpm($user);*/
-	 //$nom = "rodrigo";
-
-
 
   public function index() {
 
@@ -32,9 +25,12 @@ class PanelController extends ControllerBase {
 	
 
      $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());
-     ksm($user);
+     //ksm($user);
      $nombre=$user->get('name')->value;
-     dpm($nombre);
+     //dpm($nombre);
+
+    
+     
 
   	return[
 
