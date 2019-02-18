@@ -20,8 +20,6 @@ class PanelController extends ControllerBase {
    */
 
   public function index() {
-
-	 
 	
 
      $user = \Drupal\user\Entity\User::load(\Drupal::currentUser()->id());

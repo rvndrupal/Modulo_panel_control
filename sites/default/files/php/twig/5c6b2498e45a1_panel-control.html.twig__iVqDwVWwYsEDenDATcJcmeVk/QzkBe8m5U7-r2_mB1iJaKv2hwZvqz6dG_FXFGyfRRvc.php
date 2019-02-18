@@ -54,7 +54,7 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
   <meta name=\"description\" content=\"\">
   <meta name=\"author\" content=\"\">
 
-  <title>SB Admin 2 - Dashboard</title>
+  <title>Panel de Control</title>
 
   <!-- Custom fonts for this template-->
   <link href=\"/ampm/modules/custom/panel/vendor/fontawesome-free/css/all.min.css\" rel=\"stylesheet\" type=\"text/css\">
@@ -78,7 +78,7 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
         <div class=\"sidebar-brand-icon rotate-n-15\">
           <i class=\"fas fa-laugh-wink\"></i>
         </div>
-        <div class=\"sidebar-brand-text mx-3\">SB Admin <sup>2</sup></div>
+        <div class=\"sidebar-brand-text mx-3\">Panel<sup>1</sup></div>
       </a>
 
       <!-- Divider -->
@@ -88,7 +88,7 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
       <li class=\"nav-item active\">
         <a class=\"nav-link\" href=\"index.html\">
           <i class=\"fas fa-fw fa-tachometer-alt\"></i>
-          <span>Dashboard</span></a>
+          <span>Administrador</span></a>
       </li>
 
       <!-- Divider -->
@@ -103,13 +103,14 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
       <li class=\"nav-item\">
         <a class=\"nav-link collapsed\" href=\"#\" data-toggle=\"collapse\" data-target=\"#collapseTwo\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">
           <i class=\"fas fa-fw fa-cog\"></i>
-          <span>Components</span>
+          <span>Noticias</span>
         </a>
         <div id=\"collapseTwo\" class=\"collapse\" aria-labelledby=\"headingTwo\" data-parent=\"#accordionSidebar\">
           <div class=\"bg-white py-2 collapse-inner rounded\">
-            <h6 class=\"collapse-header\">Custom Components:</h6>
-            <a class=\"collapse-item\" href=\"buttons.html\">Buttons</a>
-            <a class=\"collapse-item\" href=\"cards.html\">Cards</a>
+            <h6 class=\"collapse-header\">Componentes:</h6>
+            <a class=\"collapse-item\" href=\"#\">Contenido</a>
+            <a class=\"collapse-item\" href=\"#\">Agregar Nota</a>
+            <a class=\"collapse-item\" href=\"#\">Editar Nota</a>
           </div>
         </div>
       </li>
@@ -344,7 +345,7 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
             <li class=\"nav-item dropdown no-arrow\">
               <a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"userDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">
                 <span class=\"mr-2 d-none d-lg-inline text-gray-600 small\">";
-        // line 303
+        // line 304
         echo $this->env->getExtension('Twig_Extension_Sandbox')->ensureToStringAllowed($this->env->getExtension('Drupal\Core\Template\TwigExtension')->escapeFilter($this->env, ($context["nombre"] ?? null), "html", null, true));
         echo "</span>
                 <img class=\"img-profile rounded-circle\" src=\"/ampm/modules/custom/panel/img/dos.png\">
@@ -739,7 +740,7 @@ class __TwigTemplate_a984052a00ccbde41415f0250e18b8b945e9e3bcd4ea046a7c37e47b220
 
     public function getDebugInfo()
     {
-        return array (  348 => 303,  43 => 1,);
+        return array (  349 => 304,  43 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
