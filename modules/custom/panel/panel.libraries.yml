@@ -1,0 +1,7 @@
+panel-estilos:
+  version: 1.x
+  css:
+    theme:
+      css/estilos.css: {}
+      css/sb-admin-2.css: {}
+      css/estilos.css: {}

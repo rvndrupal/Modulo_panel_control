@@ -1,0 +1,15 @@
+<?php
+
+/**
+*
+* Implentando el tema del panel de control
+*/
+
+function panel_theme($existing, $type, $theme, $path) {
+  return [
+      'panel_control' =>[
+         'variables' => ['title'=>''],
+      ]
+  ];
+
+}

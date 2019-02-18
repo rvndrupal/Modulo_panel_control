@@ -1,0 +1,5 @@
+name: Panel de Control
+description: Panel de administraciòn 
+package: Custom
+type: module
+core: 8.x

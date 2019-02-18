@@ -1,0 +1,7 @@
+panel.admin:
+  path: '/panel' 
+  defaults: 
+    _controller: '\Drupal\panel\Controller\PanelController::index' 
+    _title: 'Panel de Control'
+  requirements: 
+    _permission: 'access content' 
